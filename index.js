@@ -6,7 +6,7 @@ app.listen(
     () => console.log('its alive on http://localhost:${PORT}')
 )
 
-app.get('/random', (req, res) => {
+app.get('api/random', (req, res) => {
 
     console.log("hello world");
       
